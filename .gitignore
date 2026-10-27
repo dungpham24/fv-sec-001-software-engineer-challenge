@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+src/_build/
+*.so
+*.dylib
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Large dataset files (do not commit ~1GB raw data; keep results/*.csv tracked)
+ad_data.csv
+ad_data.csv.zip
+
+# OS / IDE artifacts
+.DS_Store
+.idea/
+.vscode/
+*.swp
